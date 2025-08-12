@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+ 
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin:40px;
+    text-align: center;
+}
+
+form{
+    width:500px;
+    padding:20px;
+    border:1px solid black;
+    border-radius: 8px;
+    height:500px;
+background-color:#dfdbdb;
+/* text-align: center; */
+}
+
+.contactForm{
+    display: flex;
+align-items: center;
+justify-content: center;
+}
+
+input,textarea{
+    width:100%;
+    padding:10px 12px;
+    border: none;
+    border-radius: 8px;
+    margin:20px 0;
+    border:1px solid #ccc
+}
+
+button{
+    padding:10px 30px;
+  margin-top:40px;
+background-color: #3367c8;
+border:none;
+color:#ccc;
+font-size: 1.2rem;
+border-radius: 8px;
+}
+
+button:hover{
+background-color: #89a2d1;
+color:black
+}
+
+#nameError,#emailError,#messageError{
+    color:red;
+    font-size: 0.85rem;
+    margin-top: 4px;
+}
+
+#successMessage{
+    color:green;
+    font-size: 0.9rem;
+margin:4px;
+}
